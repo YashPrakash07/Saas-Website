@@ -1,4 +1,4 @@
-# 📧 CampaignStudio
+# 📧 SaaS marketing
 
 **The modern infrastructure for intelligent campaign delivery.**
 
