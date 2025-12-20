@@ -34,7 +34,25 @@ A feature-rich, beautifully designed landing page and web application for a camp
 | UI Components | Radix UI Primitives |
 
 ## 📁 Project Structure
-├── app/ │ ├── about/ # About page │ ├── contact/ # Contact page │ ├── features/ # Features page │ ├── gdpr/ # GDPR compliance page │ ├── login/ # Login page │ ├── pricing/ # Pricing page │ ├── privacy/ # Privacy policy │ ├── services/ # Services pages │ ├── signup/ # Signup page │ ├── terms/ # Terms & conditions │ └── page.tsx # Homepage ├── components/ │ ├── ui/ # Reusable UI components │ └── ... # Feature components └── lib/ # Utility functions
+
+├── app/
+│   ├── about/        # About page
+│   ├── contact/      # Contact page
+│   ├── features/     # Features page
+│   ├── gdpr/         # GDPR compliance page
+│   ├── login/        # Login page
+│   ├── pricing/      # Pricing page
+│   ├── privacy/      # Privacy policy
+│   ├── services/     # Services pages
+│   ├── signup/       # Signup page
+│   ├── terms/        # Terms & conditions
+│   └── page.tsx      # Homepage
+│
+├── components/
+│   ├── ui/           # Reusable UI components
+│   └── ...           # Feature components
+│
+└── lib/              # Utility functions
 
 
 ## 🚀 Getting Started
