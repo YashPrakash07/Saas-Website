@@ -9,32 +9,39 @@ A feature-rich, beautifully designed landing page and web application for a camp
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?logo=tailwind-css)
 
+---
+
 ## ✨ Features
 
-- **🎨 Premium UI/UX** - Stunning glassmorphism effects, smooth animations with Framer Motion, and dark mode support
-- **📊 Bento Grid Layouts** - Modern dashboard-style feature showcases
-- **🌍 Interactive Globe** - 3D globe visualization using `cobe` for global infrastructure display
-- **⚡ Real-Time Campaign Visualizer** - Interactive flow diagrams showing campaign orchestration
-- **🔗 Integrations Section** - Showcase of supported platforms and services
-- **💬 Testimonials** - Social proof with customer testimonials
-- **📱 Fully Responsive** - Mobile-first design across all pages
-- **🔐 GDPR Compliant** - Privacy policy, terms, and GDPR pages included
+- **🎨 Premium UI/UX** — Glassmorphism effects, smooth animations with Framer Motion, and dark mode support  
+- **📊 Bento Grid Layouts** — Modern dashboard-style feature showcases  
+- **🌍 Interactive Globe** — 3D globe visualization using `cobe`  
+- **⚡ Real-Time Campaign Visualizer** — Interactive campaign orchestration flows  
+- **🔗 Integrations Section** — Supported platforms and services  
+- **💬 Testimonials** — Customer social proof  
+- **📱 Fully Responsive** — Mobile-first design  
+- **🔐 GDPR Compliant** — Privacy, terms, and GDPR pages included  
+
+---
 
 ## 🛠️ Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| Framework | Next.js 16 (App Router) |
-| Language | TypeScript 5 |
-| Styling | Tailwind CSS 4 |
-| Animations | Framer Motion |
-| Icons | Lucide React |
-| 3D Graphics | Cobe (Globe) |
-| Theming | next-themes |
-| UI Components | Radix UI Primitives |
+| Category       | Technology |
+|---------------|------------|
+| Framework     | Next.js 16 (App Router) |
+| Language      | TypeScript 5 |
+| Styling       | Tailwind CSS 4 |
+| Animations    | Framer Motion |
+| Icons         | Lucide React |
+| 3D Graphics   | Cobe |
+| Theming       | next-themes |
+| UI Components | Radix UI |
+
+---
 
 ## 📁 Project Structure
 
+```text
 ├── app/
 │   ├── about/        # About page
 │   ├── contact/      # Contact page
@@ -53,13 +60,8 @@ A feature-rich, beautifully designed landing page and web application for a camp
 │   └── ...           # Feature components
 │
 └── lib/              # Utility functions
-
-
-## 🚀 Getting Started
-
-```bash
 # Clone the repository
-git clone [https://github.com/yourusername/campaignstudio.git](https://github.com/yourusername/campaignstudio.git)
+git clone https://github.com/yourusername/campaignstudio.git
 
 # Navigate to the project
 cd campaignstudio
@@ -77,9 +79,3 @@ npm run dev	Start development server
 npm run build	Build for production
 npm run start	Start production server
 npm run lint	Run ESLint
-🎯 Key Pages
-Homepage - Hero section, features bento grid, campaign visualizer, testimonials
-About - Company story, values, and team statistics
-Pricing - Flexible pricing tiers
-Features - Detailed feature breakdown
-GDPR/Privacy/Terms - Legal compliance pages
