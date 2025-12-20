@@ -34,3 +34,34 @@ A feature-rich, beautifully designed landing page and web application for a camp
 | UI Components | Radix UI Primitives |
 
 ## 📁 Project Structure
+├── app/ │ ├── about/ # About page │ ├── contact/ # Contact page │ ├── features/ # Features page │ ├── gdpr/ # GDPR compliance page │ ├── login/ # Login page │ ├── pricing/ # Pricing page │ ├── privacy/ # Privacy policy │ ├── services/ # Services pages │ ├── signup/ # Signup page │ ├── terms/ # Terms & conditions │ └── page.tsx # Homepage ├── components/ │ ├── ui/ # Reusable UI components │ └── ... # Feature components └── lib/ # Utility functions
+
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone [https://github.com/yourusername/campaignstudio.git](https://github.com/yourusername/campaignstudio.git)
+
+# Navigate to the project
+cd campaignstudio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+Open http://localhost:3000 to view the application.
+
+📜 Available Scripts
+Command	Description
+npm run dev	Start development server
+npm run build	Build for production
+npm run start	Start production server
+npm run lint	Run ESLint
+🎯 Key Pages
+Homepage - Hero section, features bento grid, campaign visualizer, testimonials
+About - Company story, values, and team statistics
+Pricing - Flexible pricing tiers
+Features - Detailed feature breakdown
+GDPR/Privacy/Terms - Legal compliance pages
