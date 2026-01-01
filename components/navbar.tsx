@@ -2,7 +2,8 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { Menu, X, Rocket } from "lucide-react"
+import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 
@@ -13,7 +14,14 @@ export function Navbar() {
         <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container mx-auto px-4 h-16 flex items-center justify-between">
                 <Link href="/" className="font-bold text-xl tracking-tight flex items-center gap-2" onClick={() => setIsOpen(false)}>
-                    <Rocket className="h-6 w-6 text-primary" />
+                    <div className="relative h-8 w-8">
+                        <Image
+                            src="/logo.jpg"
+                            alt="CampaignStudio Logo"
+                            fill
+                            className="object-contain rounded-sm"
+                        />
+                    </div>
                     <span>CampaignStudio</span>
                 </Link>
 

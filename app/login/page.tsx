@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Rocket, ArrowLeft, Github, Chrome } from "lucide-react"
+import { ArrowLeft, Github, Chrome } from "lucide-react"
+import Image from "next/image"
 
 export default function LoginPage() {
     return (
@@ -22,8 +23,13 @@ export default function LoginPage() {
 
             <Card className="relative z-10 w-full max-w-md shadow-xl border-border/50 bg-card/50 backdrop-blur-sm">
                 <CardHeader className="space-y-1 items-center text-center">
-                    <div className="p-3 bg-primary/10 rounded-xl mb-2">
-                        <Rocket className="h-8 w-8 text-primary" />
+                    <div className="p-3 bg-primary/10 rounded-xl mb-2 relative h-14 w-14 flex items-center justify-center">
+                        <Image
+                            src="/logo.jpg"
+                            alt="CampaignStudio Logo"
+                            fill
+                            className="object-contain p-2"
+                        />
                     </div>
                     <CardTitle className="text-2xl font-bold">Welcome back</CardTitle>
                     <CardDescription>

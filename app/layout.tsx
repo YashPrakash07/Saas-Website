@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CampaignStudio – Intelligent Campaign Delivery Platform",
   description: "CampaignStudio helps businesses deliver, analyze, and optimize campaigns with speed, reliability, and real-time intelligence.",
+  icons: {
+    icon: "/logo.jpg",
+  },
 };
 
 import { Preloader } from "@/components/ui/preloader";

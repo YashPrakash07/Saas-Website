@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Zap } from "lucide-react";
+import Image from "next/image";
 
 export function Preloader() {
     const pathname = usePathname();
@@ -67,7 +67,14 @@ function PreloaderInner() {
                 <div className="relative mb-8">
                     <div className="absolute inset-0 animate-ping rounded-full bg-primary/20 duration-1000" />
                     <div className="relative flex h-20 w-20 items-center justify-center rounded-2xl bg-primary/10 border border-primary/20 shadow-2xl shadow-primary/20 backdrop-blur-sm">
-                        <Zap className="h-10 w-10 text-primary animate-pulse" />
+                        <div className="relative h-12 w-12 animate-pulse">
+                            <Image
+                                src="/logo.jpg"
+                                alt="CampaignStudio Logo"
+                                fill
+                                className="object-contain"
+                            />
+                        </div>
                     </div>
 
                     {/* Orbiting particles */}
