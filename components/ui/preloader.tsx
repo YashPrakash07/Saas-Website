@@ -27,11 +27,11 @@ function PreloaderInner() {
                     clearInterval(interval);
                     return 100;
                 }
-                // Random increment for realistic feel
-                const diff = Math.random() * 10;
+                // Faster increment
+                const diff = Math.random() * 15 + 5;
                 return Math.min(prev + diff, 100);
             });
-        }, 100);
+        }, 30);
 
         return () => {
             clearInterval(interval);
@@ -47,8 +47,8 @@ function PreloaderInner() {
                 // Re-enable scrolling after fade out starts
                 setTimeout(() => {
                     document.body.style.overflow = "";
-                }, 500);
-            }, 500);
+                }, 300);
+            }, 200);
             return () => clearTimeout(timeout);
         }
     }, [progress]);
